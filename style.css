@@ -1,0 +1,21 @@
+/* Styles for the grid cells */
+.grid-cell {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    margin: 0;
+    display: inline-block;
+}
+
+.grid-container {
+    padding: 0;
+}
+
+.grid-cell.alive{
+    background-color: black;
+}
+
+/* Additional styling for buttons */
+button {
+    margin: 5px;
+}
